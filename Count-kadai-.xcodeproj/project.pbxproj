@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90DE2BD11B23D3DE008A9C19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DE2BD01B23D3DE008A9C19 /* AppDelegate.swift */; };
+		90DE2BD31B23D3DE008A9C19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DE2BD21B23D3DE008A9C19 /* ViewController.swift */; };
+		90DE2BD61B23D3DE008A9C19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90DE2BD41B23D3DE008A9C19 /* Main.storyboard */; };
+		90DE2BD81B23D3DE008A9C19 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90DE2BD71B23D3DE008A9C19 /* Images.xcassets */; };
+		90DE2BDB1B23D3DE008A9C19 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90DE2BD91B23D3DE008A9C19 /* LaunchScreen.xib */; };
+		90DE2BE71B23D3DE008A9C19 /* Count_kadai_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DE2BE61B23D3DE008A9C19 /* Count_kadai_Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90DE2BE11B23D3DE008A9C19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90DE2BC31B23D3DD008A9C19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90DE2BCA1B23D3DE008A9C19;
+			remoteInfo = "Count-kadai-";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		90DE2BCB1B23D3DE008A9C19 /* Count-kadai-.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Count-kadai-.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90DE2BCF1B23D3DE008A9C19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90DE2BD01B23D3DE008A9C19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		90DE2BD21B23D3DE008A9C19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		90DE2BD51B23D3DE008A9C19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90DE2BD71B23D3DE008A9C19 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		90DE2BDA1B23D3DE008A9C19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		90DE2BE01B23D3DE008A9C19 /* Count-kadai-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Count-kadai-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90DE2BE51B23D3DE008A9C19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90DE2BE61B23D3DE008A9C19 /* Count_kadai_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Count_kadai_Tests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90DE2BC81B23D3DE008A9C19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90DE2BDD1B23D3DE008A9C19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90DE2BC21B23D3DD008A9C19 = {
+			isa = PBXGroup;
+			children = (
+				90DE2BCD1B23D3DE008A9C19 /* Count-kadai- */,
+				90DE2BE31B23D3DE008A9C19 /* Count-kadai-Tests */,
+				90DE2BCC1B23D3DE008A9C19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90DE2BCC1B23D3DE008A9C19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90DE2BCB1B23D3DE008A9C19 /* Count-kadai-.app */,
+				90DE2BE01B23D3DE008A9C19 /* Count-kadai-Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90DE2BCD1B23D3DE008A9C19 /* Count-kadai- */ = {
+			isa = PBXGroup;
+			children = (
+				90DE2BD01B23D3DE008A9C19 /* AppDelegate.swift */,
+				90DE2BD21B23D3DE008A9C19 /* ViewController.swift */,
+				90DE2BD41B23D3DE008A9C19 /* Main.storyboard */,
+				90DE2BD71B23D3DE008A9C19 /* Images.xcassets */,
+				90DE2BD91B23D3DE008A9C19 /* LaunchScreen.xib */,
+				90DE2BCE1B23D3DE008A9C19 /* Supporting Files */,
+			);
+			path = "Count-kadai-";
+			sourceTree = "<group>";
+		};
+		90DE2BCE1B23D3DE008A9C19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90DE2BCF1B23D3DE008A9C19 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90DE2BE31B23D3DE008A9C19 /* Count-kadai-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				90DE2BE61B23D3DE008A9C19 /* Count_kadai_Tests.swift */,
+				90DE2BE41B23D3DE008A9C19 /* Supporting Files */,
+			);
+			path = "Count-kadai-Tests";
+			sourceTree = "<group>";
+		};
+		90DE2BE41B23D3DE008A9C19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90DE2BE51B23D3DE008A9C19 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90DE2BCA1B23D3DE008A9C19 /* Count-kadai- */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90DE2BEA1B23D3DE008A9C19 /* Build configuration list for PBXNativeTarget "Count-kadai-" */;
+			buildPhases = (
+				90DE2BC71B23D3DE008A9C19 /* Sources */,
+				90DE2BC81B23D3DE008A9C19 /* Frameworks */,
+				90DE2BC91B23D3DE008A9C19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Count-kadai-";
+			productName = "Count-kadai-";
+			productReference = 90DE2BCB1B23D3DE008A9C19 /* Count-kadai-.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90DE2BDF1B23D3DE008A9C19 /* Count-kadai-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90DE2BED1B23D3DE008A9C19 /* Build configuration list for PBXNativeTarget "Count-kadai-Tests" */;
+			buildPhases = (
+				90DE2BDC1B23D3DE008A9C19 /* Sources */,
+				90DE2BDD1B23D3DE008A9C19 /* Frameworks */,
+				90DE2BDE1B23D3DE008A9C19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90DE2BE21B23D3DE008A9C19 /* PBXTargetDependency */,
+			);
+			name = "Count-kadai-Tests";
+			productName = "Count-kadai-Tests";
+			productReference = 90DE2BE01B23D3DE008A9C19 /* Count-kadai-Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90DE2BC31B23D3DD008A9C19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = YouSakamoto;
+				TargetAttributes = {
+					90DE2BCA1B23D3DE008A9C19 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					90DE2BDF1B23D3DE008A9C19 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 90DE2BCA1B23D3DE008A9C19;
+					};
+				};
+			};
+			buildConfigurationList = 90DE2BC61B23D3DD008A9C19 /* Build configuration list for PBXProject "Count-kadai-" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90DE2BC21B23D3DD008A9C19;
+			productRefGroup = 90DE2BCC1B23D3DE008A9C19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90DE2BCA1B23D3DE008A9C19 /* Count-kadai- */,
+				90DE2BDF1B23D3DE008A9C19 /* Count-kadai-Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90DE2BC91B23D3DE008A9C19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90DE2BD61B23D3DE008A9C19 /* Main.storyboard in Resources */,
+				90DE2BDB1B23D3DE008A9C19 /* LaunchScreen.xib in Resources */,
+				90DE2BD81B23D3DE008A9C19 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90DE2BDE1B23D3DE008A9C19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90DE2BC71B23D3DE008A9C19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90DE2BD31B23D3DE008A9C19 /* ViewController.swift in Sources */,
+				90DE2BD11B23D3DE008A9C19 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90DE2BDC1B23D3DE008A9C19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90DE2BE71B23D3DE008A9C19 /* Count_kadai_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90DE2BE21B23D3DE008A9C19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90DE2BCA1B23D3DE008A9C19 /* Count-kadai- */;
+			targetProxy = 90DE2BE11B23D3DE008A9C19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90DE2BD41B23D3DE008A9C19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90DE2BD51B23D3DE008A9C19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90DE2BD91B23D3DE008A9C19 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90DE2BDA1B23D3DE008A9C19 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90DE2BE81B23D3DE008A9C19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		90DE2BE91B23D3DE008A9C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90DE2BEB1B23D3DE008A9C19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Count-kadai-/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		90DE2BEC1B23D3DE008A9C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Count-kadai-/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		90DE2BEE1B23D3DE008A9C19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Count-kadai-Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Count-kadai-.app/Count-kadai-";
+			};
+			name = Debug;
+		};
+		90DE2BEF1B23D3DE008A9C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Count-kadai-Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Count-kadai-.app/Count-kadai-";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90DE2BC61B23D3DD008A9C19 /* Build configuration list for PBXProject "Count-kadai-" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90DE2BE81B23D3DE008A9C19 /* Debug */,
+				90DE2BE91B23D3DE008A9C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90DE2BEA1B23D3DE008A9C19 /* Build configuration list for PBXNativeTarget "Count-kadai-" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90DE2BEB1B23D3DE008A9C19 /* Debug */,
+				90DE2BEC1B23D3DE008A9C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		90DE2BED1B23D3DE008A9C19 /* Build configuration list for PBXNativeTarget "Count-kadai-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90DE2BEE1B23D3DE008A9C19 /* Debug */,
+				90DE2BEF1B23D3DE008A9C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90DE2BC31B23D3DD008A9C19 /* Project object */;
+}
